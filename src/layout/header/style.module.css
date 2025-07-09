@@ -1,0 +1,56 @@
+.header {
+    height: 100px;
+    background: rgb(0, 0, 0);
+    color: white;
+   
+   
+
+}
+
+.header__navigation {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+
+}
+
+.header__navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Arial", sans-serif;
+}
+
+.header__navigation a:hover {
+    color: orange;
+}
+
+.header img {
+    width: 174px;
+    height: 48px;
+    margin-left: 30px;
+
+
+}
+
+.header__email {
+    color: orange;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.header__number {
+    color: orange;
+    font-size: 30px;
+
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}

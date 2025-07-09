@@ -1,0 +1,27 @@
+
+.button {
+  font-family: Arial;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  text-align: center;
+}
+
+/* Варианты кнопки */
+.primary {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background-color: rgb(189, 127, 12);
+}
+ .medium {
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
